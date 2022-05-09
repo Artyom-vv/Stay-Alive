@@ -43,6 +43,8 @@ fill 285 104 260 291 107 260 minecraft:iron_bars
 give @a[team=murderer] iron_axe{axe:1, display:{Name:'{"text":"Топор маньяка", "color": "purple"}'}}
 give @a[team=murderer] minecraft:stone_pressure_plate{trap:1,display:{Name:'{"text":"Капкан"}'}} 3
 gamemode adventure @a
+tag @a remove murderer
+tag @a[team=murderer] add murderer
 
 ## Время игры
 execute if score *switch_game_time lobby matches 1 run scoreboard players set minutes clock 10
@@ -60,3 +62,9 @@ give @a[team=general] minecraft:amethyst_shard{general:1, display:{Name:'{"text"
 
 ## Стартуем игру
 scoreboard players set *game game 1
+## Для плагина
+    ##Проверка плагина
+    tellraw @a {"text":"Проверка плагина"}
+    summon minecraft:armor_stand 0 10 0 {CustomName:'{"text":"*Plugin:Check"}'}
+    ## Запуск игры в плагине
+    summon minecraft:armor_stand 0 10 0 {CustomName:'{"text":"*Game:Start"}'}

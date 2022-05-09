@@ -24,3 +24,6 @@ execute as @e[tag=trap] run function features:things/trap/destroy
 	team join lobby @a[tag=game_players]
 	tp @a[tag=game_players] @e[tag=Lobby,limit=1]
 	tag @a[tag=game_players] remove game_players
+
+## Плагин
+summon minecraft:armor_stand 0 10 0 {CustomName:'{"text":"*Game:End"}'}
