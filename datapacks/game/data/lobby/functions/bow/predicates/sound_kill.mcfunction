@@ -1,0 +1,1 @@
+playsound entity.player.levelup player @s ~ ~ ~ 1 1 1

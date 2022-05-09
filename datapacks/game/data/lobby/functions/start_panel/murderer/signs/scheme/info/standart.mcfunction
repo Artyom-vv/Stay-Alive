@@ -1,0 +1,1 @@
+data merge block 25 102 24 {Text1:'{"text":""}', Text2:'{"text":"\\u041c\\u0430\\u043d\\u044c\\u044f\\u043a\\u043e\\u043c \\u0431\\u0443\\u0434\\u0435\\u0442:","color":"#FFFFFF"}',Text3:'{"text":"<Засекречено>","bold":true,"color":"yellow"}'}

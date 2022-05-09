@@ -1,0 +1,1 @@
+stopsound @a master minecraft:music_disc.mellohi

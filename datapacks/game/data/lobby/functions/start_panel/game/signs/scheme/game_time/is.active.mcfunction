@@ -1,0 +1,1 @@
+data merge block 23 103 26 {Text1:'{"text":"","clickEvent":{"action":"run_command","value":"function lobby:start_panel/game/predicates/game_time"}}',Text2:'{"text":"\\u0412\\u0440\\u0435\\u043c\\u044f \\u0438\\u0433\\u0440\\u044b:","color":"gold"}',Text3:'[{"score":{"name":"*view_time","objective":"lobby"},"color":"yellow"}, {"text":" минут","color":"#FFFFFF"}]'}

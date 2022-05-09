@@ -1,0 +1,11 @@
+{
+  "values": [
+    "sa:init",
+    "lobby:potato/init",
+    "lobby:init",
+    "lobby:bow/init",
+    "pebble:init",
+    "features:init"
+  ],
+  "replace": false
+}

@@ -1,0 +1,1 @@
+playsound gen2 master @a ~ ~ ~ 0.2 1

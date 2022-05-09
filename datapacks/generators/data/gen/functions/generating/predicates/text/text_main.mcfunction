@@ -1,0 +1,1 @@
+summon armor_stand ~ ~ ~ {Small:1b,Tags:["gen_dependencies","gen_text_main","text"],CustomNameVisible:1b,CustomName:'{"text":"Нужны:","color":"red"}',Invisible:1b,Marker:1b,NoGravity:1b}

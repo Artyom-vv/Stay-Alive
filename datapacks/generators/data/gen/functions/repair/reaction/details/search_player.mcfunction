@@ -1,0 +1,1 @@
+execute if score @s ID.gens = @e[tag=this.from,limit=1] ID.players run tag @s add is.linked

@@ -1,0 +1,1 @@
+give @s minecraft:carrot_on_a_stick{MediKit:1,CustomModelData:49,display:{Name:'{"text":"Аптечка"}'}}

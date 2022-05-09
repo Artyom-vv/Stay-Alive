@@ -1,0 +1,1 @@
+execute if score @s dbd_hp_anim matches 1.. run scoreboard players remove @s dbd_hp_anim 1

@@ -1,0 +1,1 @@
+data merge block 25 102 23 {Text1:'{"text":"","clickEvent":{"action":"run_command","value":"/function lobby:start_panel/murderer/predicates/select_random"}}',Text2:'{"text":"\\u0421\\u043b\\u0443\\u0447\\u0430\\u0439\\u043d\\u044b\\u0439 \\u0432\\u044b\\u0431\\u043e\\u0440","color":"#FFFFFF"}',Text3:'{"text":"\\u043c\\u0430\\u043d\\u044c\\u044f\\u043a\\u0430","color":"#FFFFFF"}'}

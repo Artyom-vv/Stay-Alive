@@ -1,0 +1,1 @@
+data merge block 23 102 26 {Text1:'{"text":"","clickEvent":{"action":"run_command","value":"function lobby:start_panel/game/predicates/start"}}',Text2:'{"text":"Загрузить игру","color":"dark_green"}'}

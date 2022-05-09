@@ -1,0 +1,1 @@
+scoreboard players operation @s ID.chest_menu = @p[tag=this.from] ID.chest_menu

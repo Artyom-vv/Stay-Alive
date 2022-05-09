@@ -1,0 +1,1 @@
+scoreboard players set @s dbd_hp_anim 6

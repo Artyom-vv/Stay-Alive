@@ -1,0 +1,1 @@
+scoreboard players operation @s ID.murderer = @p[tag=this.from] ID.murderer

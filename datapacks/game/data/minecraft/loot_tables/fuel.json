@@ -1,0 +1,38 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:iron_block",
+          "functions": [
+            {
+              "function": "minecraft:copy_nbt",
+              "source": {
+                "type": "minecraft:storage",
+                "source": "minecraft:fuel"
+              },
+              "ops": [
+                {
+                  "source": "fill",
+                  "target": "fill",
+                  "op": "replace"
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{CustomModelData:5,fuel:1,general:1}"
+            },
+            {
+              "function": "minecraft:set_name",
+              "entity": "this",
+              "name": "Канистра"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

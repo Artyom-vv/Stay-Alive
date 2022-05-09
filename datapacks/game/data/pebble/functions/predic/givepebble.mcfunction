@@ -1,0 +1,1 @@
+give @s minecraft:carrot_on_a_stick{Pebble:1,display:{Name:'{"text":"Rock"}'}}

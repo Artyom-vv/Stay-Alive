@@ -1,0 +1,1 @@
+execute at @e[tag=chestmarker,distance=..25] run particle flame ~ ~0.5 ~ 0 0 0 0 1

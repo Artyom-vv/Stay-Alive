@@ -1,0 +1,1 @@
+execute if score @s ID.murderer = @p[tag=this.from] ID.murderer run tag @s add is.linked

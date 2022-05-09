@@ -1,0 +1,2 @@
+scoreboard players add *iteration gen_i_summon 1
+execute unless score *iteration gen_i_summon > *survivors online as @e[tag=this_part,tag=!this.generate,sort=random,limit=1] at @s run function gen:generating/promote

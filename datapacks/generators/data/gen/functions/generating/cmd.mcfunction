@@ -1,0 +1,4 @@
+execute if entity @s[tag=level1] run item replace entity @e[tag=model,sort=nearest,limit=1,tag=gen_dependencies] armor.head with apple{CustomModelData:4}
+execute if entity @s[tag=level2] run item replace entity @e[tag=model,sort=nearest,limit=1,tag=gen_dependencies] armor.head with apple{CustomModelData:3}
+execute if entity @s[tag=level3] run item replace entity @e[tag=model,sort=nearest,limit=1,tag=gen_dependencies] armor.head with apple{CustomModelData:2}
+execute if entity @s[tag=level4] run item replace entity @e[tag=model,sort=nearest,limit=1,tag=gen_dependencies] armor.head with apple{CustomModelData:1}

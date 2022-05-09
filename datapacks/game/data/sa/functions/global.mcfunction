@@ -1,0 +1,1 @@
+execute as @e[type=!player] run function sa:entities/settings

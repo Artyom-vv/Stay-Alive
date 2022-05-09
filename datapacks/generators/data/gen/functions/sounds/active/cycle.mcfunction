@@ -1,0 +1,1 @@
+execute at @s run playsound minecraft:cycle master @a[tag=game_players] ~ ~ ~ 0.2 1

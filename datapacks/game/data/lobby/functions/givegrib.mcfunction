@@ -1,0 +1,1 @@
+give @s minecraft:pufferfish_spawn_egg{EntityTag:{Tags:["Grib"]},display:{Name:'{"text":"Гриб"}'}}

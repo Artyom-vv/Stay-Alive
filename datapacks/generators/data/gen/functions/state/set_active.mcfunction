@@ -1,0 +1,1 @@
+execute as @e[tag=gen,limit=1,sort=nearest] at @s run function gen:state/active_state/active

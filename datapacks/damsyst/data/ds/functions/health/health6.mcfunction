@@ -1,0 +1,6 @@
+execute if score @s dbd_hp_anim matches 6 run data modify storage minecraft:text_compile health set value '[{"text":"\\uE053\\uE054\\uE054"}]'
+execute if score @s dbd_hp_anim matches 5 run data modify storage minecraft:text_compile health set value '[{"text":"\\uE053\\uE054\\uE057"}]'
+execute if score @s dbd_hp_anim matches 4 run data modify storage minecraft:text_compile health set value '[{"text":"\\uE053\\uE054\\uE058"}]'
+execute if score @s dbd_hp_anim matches 3 run data modify storage minecraft:text_compile health set value '[{"text":"\\uE053\\uE054\\uE059"}]'
+execute if score @s dbd_hp_anim matches 2 run data modify storage minecraft:text_compile health set value '[{"text":"\\uE053\\uE054\\uE060"}]'
+execute if score @s dbd_hp_anim matches 1 run data modify storage minecraft:text_compile health set value '[{"text":"\\uE053\\uE054\\uE061"}]'

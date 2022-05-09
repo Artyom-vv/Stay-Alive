@@ -1,0 +1,1 @@
+execute as @e[tag=in.block.move] at @s run function ds:period/promote

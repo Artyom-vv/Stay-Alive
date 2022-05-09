@@ -1,0 +1,2 @@
+execute as @a[scores={rc.click=1..},nbt={SelectedItem:{tag:{menu:1}}},team=murderer] run function features:menu/open.menu
+execute as @a[scores={drop1=1..},team=murderer] at @s run function features:menu/use

@@ -1,0 +1,1 @@
+effect give @s saturation 999999 1 true
