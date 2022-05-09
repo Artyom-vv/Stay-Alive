@@ -1,4 +1,4 @@
-team add potaters
+team add potares
 scoreboard objectives add p_hit minecraft.custom:minecraft.damage_taken
 scoreboard objectives add p_game dummy
 scoreboard objectives add p_timer dummy

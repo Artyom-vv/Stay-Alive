@@ -1,18 +1,19 @@
-scoreboard players set @a[team=lobby] p_timer 0
-scoreboard players set *p_game_timer p_timer 3200
+# Те, кто играют в картошку
+tag @a[team=lobby] add miniGame_players
 
-team modify potaters friendlyFire true
-team join potaters @a[team=lobby]
+# Настройки игроков
+	# Игроки
+	team join potares @a[tag=miniGame_players]
+	# Вода
+	team join potato @r[tag=miniGame_players]
+	# Прочее
+	gamemode adventure @a[tag=miniGame_players]
 
-execute store result bossbar 102 max run scoreboard players get *p_game_timer p_timer
-bossbar set minecraft:102 visible true
-bossbar set minecraft:102 players @a[team=potaters]
-tellraw @a[team=potaters] ["",{"text":"\n----  ","obfuscated":true,"color":"gold"},{"text":"ГОРЯЧАЯ КАРТОШКА","color":"yellow"},{"text":"  ----","obfuscated":true,"color":"gold"},{"text":"\n"},{"text":"\n Передайте картошку другому\n игроку, пока таймер не иссяк!\n","color":"#dbf8a6"}]
-
-gamemode adventure @a[team=!general,team=!murderer,team=!dead]
-
+# Для топа игроков
 data remove storage tmp tmp
 data remove storage top:players array
-function lobby:potato/predicates/reset
 
+# Возобновляем игру
+scoreboard players set *p_game_timer p_timer 3200
+function lobby:potato/predicates/reset
 scoreboard players set p_game p_game 1

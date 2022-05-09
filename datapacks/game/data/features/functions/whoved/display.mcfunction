@@ -1,5 +1,5 @@
 summon armor_stand 0 10 0 {Tags:["nick_get"],NoGravity:1b}
-loot replace entity @e[tag=nick_get] armor.head loot head
+loot replace entity @e[tag=nick_get,limit=1] armor.head loot head
 data modify storage nick_get nick set from entity @e[tag=nick_get,limit=1] ArmorItems[3].tag.SkullOwner.Name
 kill @e[tag=nick_get]
 

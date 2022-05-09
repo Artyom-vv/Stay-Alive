@@ -2,15 +2,8 @@ scoreboard players add @e[tag=ballon] bow_timer_b 1
 tp @e[scores={bow_timer_b=200..},tag=ballon] ~ -500 ~
 kill @e[scores={bow_timer_b=200..},tag=ballon]
 
-#execute as @a run scoreboard players operation @s bow_count = @s bow_kills
-#scoreboard players add @a[scores={bow_kills=1..}] bow_count 1
 scoreboard players set @a bow_kills 0
 execute unless entity @e[tag=ballon] run function lobby:bow/spawnball
-# execute if score *bow_tim bow_timer matches 0 run function lobby:bow/spawnball
-# execute if score *bow_tim bow_timer matches 100 run function lobby:bow/spawnball
-# execute if score *bow_tim bow_timer matches 300 run function lobby:bow/spawnball
-# execute if score *bow_tim bow_timer matches 500 run function lobby:bow/spawnball
-# execute if score *bow_tim bow_timer matches 700 run function lobby:bow/spawnball
 
 execute store result bossbar minecraft:101 value run scoreboard players get *bow_tim bow_timer
 

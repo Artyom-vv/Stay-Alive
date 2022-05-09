@@ -1,0 +1,15 @@
+{
+	"criteria": {
+		"requirement": {
+			"trigger": "minecraft:entity_hurt_player",
+			"conditions": {
+				"player": {
+					"team": "potares"
+				}
+			}
+		}
+	},
+	"rewards": {
+		"function": "lobby:potato/rec_potato"
+	}
+}

@@ -1,0 +1,2 @@
+execute unless data storage clear_inventory:core Inventory run data modify storage clear_inventory:core Inventory set value []
+execute unless data storage clear_inventory:core PickupDelay run data modify storage clear_inventory:core PickupDelay set value 0s

@@ -3,9 +3,8 @@ clear @a bow{bowgame:1}
 clear @a arrow{bowgame:1}
 kill @e[tag=ballon]
 
+tag @a add 
 execute as @a run scoreboard players operation @s tmp_sboards = @s bow_count
-function features:whoved/reset
-function features:whoved/sort
 
 function features:whoved/predicates/leader
 
